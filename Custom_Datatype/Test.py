@@ -9,3 +9,4 @@ class Tests:
     print(fraction1 - fraction2)
     print(fraction1 * fraction2)
     print(fraction1 / fraction2)
+    print(fraction1==fraction2)

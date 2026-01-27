@@ -45,3 +45,7 @@ class Fraction:
         temp_den=self.denominator*other.numerator
         final_div="{}/{}".format(temp_num,temp_den)
         return final_div
+    def __eq__(self, other):
+         temp_frac=self.numerator/self.denominator
+         temp_frac2=other.numerator/other.denominator
+         return temp_frac==temp_frac2
