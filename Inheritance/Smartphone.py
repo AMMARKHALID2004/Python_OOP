@@ -9,6 +9,6 @@ class Smartphone(Phone):
         print(self.name,self.ram,self.os)
 
 smartphone =Smartphone("Samsung",16,'Android')
-#This will throw an error because here only the constructor of child class is executeds
+#This will throw an error because here only the constructor of child class is executed
 smartphone.print_year()
 
